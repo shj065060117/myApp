@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>公司简介</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="css/mui.min.css" rel="stylesheet"/>
+<link href="css/icons-extra.css" rel="stylesheet"  />
+<style>
+.mui-bar-popover {
+	width: 30%;
+}
+.article{background: #FFF;}
+.article .conts{margin: 20px 0 0;;}
+.article .info{text-align: center;display: block; padding-bottom:10px;font-family: "microsoft yahei";font-size: 12px; font-weight: normal;color: #999; border-bottom: 1px solid #c8c7cc;}
+.article .conts p{text-indent: 2em; font-size: 14px;}
+</style>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+	<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	<h1 class="mui-title">新闻列表详情页</h1>
+</header>
+<!--列表页-->
+<div class="mui-content article">
+	<div class="mui-content-padded ">
+		<h4 class="title">办理会员服务需要上交身份证号、家庭住址、手机号码等信息？</h4>
+		<div class="info">(发布：2017-08-20)</div>
+		<div class="conts">
+			<p><span>北京市建外街道总工会有义务对其获知的联名卡持卡人的有关信息保守秘密，不得将协议内容和联名卡持卡人个人信息透露给其他人或机构。</span></p><p><span>联名卡批量成卡后，由指定银行指定专人移交成品卡，并准确无误地递交客户本人签收，指定银行有义务确保转递过程中客户相关信息资料安全。</span></p>	
+			<p><span>北京市建外街道总工会有义务对其获知的联名卡持卡人的有关信息保守秘密，不得将协议内容和联名卡持卡人个人信息透露给其他人或机构。</span></p><p><span>联名卡批量成卡后，由指定银行指定专人移交成品卡，并准确无误地递交客户本人签收，指定银行有义务确保转递过程中客户相关信息资料安全。</span></p>
+			<p><span>北京市建外街道总工会有义务对其获知的联名卡持卡人的有关信息保守秘密，不得将协议内容和联名卡持卡人个人信息透露给其他人或机构。</span></p><p><span>联名卡批量成卡后，由指定银行指定专人移交成品卡，并准确无误地递交客户本人签收，指定银行有义务确保转递过程中客户相关信息资料安全。</span></p>
+			<p><span>北京市建外街道总工会有义务对其获知的联名卡持卡人的有关信息保守秘密，不得将协议内容和联名卡持卡人个人信息透露给其他人或机构。</span></p><p><span>联名卡批量成卡后，由指定银行指定专人移交成品卡，并准确无误地递交客户本人签收，指定银行有义务确保转递过程中客户相关信息资料安全。</span></p>
+		</div>
+	</div>
+</div>
+<!--网站底部导航-->
+<div class="marClear"></div>
+<nav class="mui-bar mui-bar-tab ">
+	<a class="mui-tab-item mui-active"  href="javascript:;" onclick="window.location.href='index.html'">
+        <span class="mui-icon mui-icon-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+	<a class="mui-tab-item" href="#Popover_0">
+		<span class="mui-icon mui-icon-bars"></span>
+		<span class="mui-tab-label">产品</span>
+		
+	</a>
+	<a class="mui-tab-item" href="#Popover_1">
+		<span class="mui-icon mui-icon-extra mui-icon-extra-peoples"></span>
+        <span class="mui-tab-label">介绍</span>
+		
+	</a>
+	<a class="mui-tab-item" href="#Popover_2">
+		<span class="mui-icon mui-icon-contact"></span>
+        <span class="mui-tab-label">我的</span>
+	</a>
+</nav>
+
+<div id="Popover_0" class="mui-popover mui-bar-popover">
+	<div class="mui-popover-arrow"></div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell"><a href="listtxt.html">文字产品</a></li>
+		<li class="mui-table-view-cell"><a href="listimg.html">图片产品</a></li>
+	</ul>
+</div>
+<div id="Popover_1" class="mui-popover mui-bar-popover">
+	<div class="mui-popover-arrow"></div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell"><a href="companyprofile.html">公司简介</a></li>
+		<li class="mui-table-view-cell"><a href="contactus.html">联系我们</a></li>
+
+	</ul>
+</div>
+<div id="Popover_2" class="mui-popover mui-bar-popover">
+	<div class="mui-popover-arrow"></div>
+	<ul class="mui-table-view">
+		<li class="mui-table-view-cell"><a href="login.html">会员登录</a></li>
+		<li class="mui-table-view-cell"><a href="reg.html">会员注册</a></li>
+	</ul>
+</div>
+<script src="js/mui.min.js"></script>
+<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+</body>
+
+</html>
